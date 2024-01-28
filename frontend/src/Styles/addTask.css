@@ -1,0 +1,56 @@
+/* color codes
+#07161B - Dark Color
+#3D737F - Light Color
+#CEC7BF - Grey Color */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #07161B;
+    height: 100vh;
+}
+
+.addTask {
+    width: 30%;
+    height: 70vh;
+    border: 2px solid #CEC7BF;
+    border-radius: 10px;
+    background: #CEC7BF;
+}
+
+.addTask h1 {
+    text-align: center;
+    color: #07161B;
+    margin-bottom: 40px;
+}
+
+.addTask input {
+    display: grid;
+    width: 70%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #CEC7BF;
+    margin-bottom: 30px;
+    margin-left: 12%;
+}
+
+.addTask button {
+    width: 50%;
+    padding: 7px;
+    margin-left: 25%;
+    background: #07161B;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #07161B;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.addTask .error {
+    color: #3D737F;
+    text-align: center;
+    font-weight: 500;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}

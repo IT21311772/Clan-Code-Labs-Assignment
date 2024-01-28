@@ -1,0 +1,77 @@
+/* color codes
+#07161B - Dark Color
+#3D737F - Light Color
+#CEC7BF - Grey Color */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #07161B;
+    height: 100vh;
+}
+
+.signup {
+    width: 30%;
+    height: 75vh;
+    border: 2px solid #CEC7BF;
+    border-radius: 10px;
+    background: #CEC7BF;
+}
+
+.signup h1 {
+    text-align: center;
+    color: #07161B;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.signup label {
+    display: grid;
+    margin-left: 55px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #07161B;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: -40px;
+}
+
+.signup input {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid #CEC7BF;
+    border-radius: 5px;
+    margin-left: 55px;
+    margin-bottom: 10px;
+}
+
+.signup button {
+    width: 55%;
+    padding: 10px;
+    margin-left: 21%;
+    margin-top: -15px;
+    background: #07161B;
+    color: #ffffff;
+    border: 1px solid #07161B;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+
+.signup p {
+    text-align: center;
+    color: grey;
+    margin-right: 20px;
+}
+
+.error {
+    color: #3D737F;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 5px;
+}
