@@ -4,12 +4,13 @@ import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
 function Login() {
-
+  // Use of useState
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
   const navigate = useNavigate();
 
+  // handleLogin Function
   const handleLogin = async(e) => {
     e.preventDefault();
     setError('');

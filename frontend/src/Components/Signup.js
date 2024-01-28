@@ -19,6 +19,7 @@ function Signup() {
 
   const navigate = useNavigate();
 
+  // Frontend Validations
   const validField = (name, value) => {
     const errors = { ...formErrors };
 
@@ -44,6 +45,7 @@ function Signup() {
     return !Object.values(formErrors).some((error) => error.length > 0);
   }
 
+  // handleSubmit Function
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (isFormValid()) {
@@ -64,6 +66,7 @@ function Signup() {
     }
   }
 
+  // handleChange Functionality
   const handleChnage = (e) => {
     const { name, value } = e.target;
     setFormData({

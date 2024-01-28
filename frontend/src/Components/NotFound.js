@@ -3,7 +3,7 @@ import React from 'react'
 function NotFound() {
   return (
     <div>
-      <h1>This page does not exist !</h1>
+      <h1 style={{textAlign: 'center'}}>This page does not exist !</h1>
     </div>
   )
 }
