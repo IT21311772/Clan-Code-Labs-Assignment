@@ -1,6 +1,6 @@
-Technology Stack: I used MERN Stack as the Technology.
+Technology Stack: I used MERN Stack as the Technology. \n
 
-CRUD operations are implemented.
+CRUD operations are implemented. \n
 Signup & Login functions are implemented.
 Validations are error handling mechanisms are used.
 Bonus Feature : Implemented a sorting functionality using bubble sort algorithm.
